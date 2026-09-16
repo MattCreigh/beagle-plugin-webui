@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beagle-plugin-webui"
+version = "1.0.0"
+description = "Beagle WebUI dashboard as a discovered Beagle plugin"
+readme = "src/beagle_plugin_webui/README.md"
+requires-python = ">=3.12"
+# HC-5: the plugin declares NO Beagle runtime dependencies. The host
+# environment (beagle, typer) provides them.
+
+[project.entry-points."beagle.frontends"]
+webui = "beagle_plugin_webui"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+beagle_plugin_webui = ["vendor/**/*"]

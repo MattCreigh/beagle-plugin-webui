@@ -1,0 +1,2 @@
+[beagle.frontends]
+webui = beagle_plugin_webui
