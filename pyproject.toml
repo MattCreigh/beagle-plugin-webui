@@ -12,7 +12,7 @@ requires-python = ">=3.12"
 # environment (beagle, typer) provides them.
 
 [project.entry-points."beagle.frontends"]
-webui = "beagle_plugin_webui"
+webui = "beagle_plugin_webui.cli"
 
 [tool.setuptools.packages.find]
 where = ["src"]

@@ -1,2 +1,2 @@
 [beagle.frontends]
-webui = beagle_plugin_webui
+webui = beagle_plugin_webui.cli
