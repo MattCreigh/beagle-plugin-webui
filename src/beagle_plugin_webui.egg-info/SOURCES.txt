@@ -31,4 +31,6 @@ src/beagle_plugin_webui/vendor/webui/src/components/RunExecutionView.tsx
 src/beagle_plugin_webui/vendor/webui/src/components/WorkflowBuilderModal.tsx
 src/beagle_plugin_webui/vendor/webui/src/components/WorkflowList.tsx
 src/beagle_plugin_webui/vendor/webui/src/data/defaultWorkflows.ts
+tests/test_webui_auth.py
 tests/test_webui_plugin.py
+tests/test_webui_server.py
